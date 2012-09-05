@@ -1,0 +1,45 @@
+#footer, #block-custom_comments, .user_info, #block-movie_media, #block-moviedata, #sidebar .block, .workview_top, .workview_description, .moviedata_container {
+	clear: both;
+	overflow: hidden;
+}
+.workview_char img {
+	margin-left: 0px;
+
+}
+#block-frontadvisor {
+
+	clear: both;
+
+}
+#block-moviedata {
+	overflow: hidden;
+}
+
+.custom_comment, .news_container {
+	overflow: auto;
+	width: 100%;
+}
+
+.schedule_row {
+	overflow: hidden;
+}
+input[type="file"] {
+	filter: alpha(opacity=0);
+}
+
+input[type="text"], input[type="password"], select {
+	line-height: 36px;
+}
+
+#block-login .login_input {
+	line-height: 13px;
+}
+
+.login_links {
+	margin-right: -30px;
+}
+
+
+/* PNG FIX for old IE, disabled for now
+img, div, a, input { behaviour: url(/htc/iepngfix/iepngfix.htc) }
+*/

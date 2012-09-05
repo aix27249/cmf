@@ -1,0 +1,55 @@
+#birthday_day, #birthday_month, #birthday_year, #input_div_birthday_day .select, #input_div_birthday_month .select, #input_div_birthday_year .select {
+	height: 26px;
+}
+
+
+#input_div_birthday_day .select {
+	width: 43px !important;
+	background-image: url(/images/input/bg_day.png);
+}
+
+#input_div_birthday_month .select {
+	width: 142px !important;
+	background-image: url(/images/input/bg_month.png);
+}
+
+#input_div_birthday_year .select {
+	width: 82px !important;
+	background-image: url(/images/input/bg_year.png);
+}
+
+#block-gmt_select .gmt_select_container .select {
+	width: 174px !important;
+	background-image: url(/images/input/bg_gmt.png);
+	color: #636363;
+}
+
+select.select {
+	position:relative;
+        z-index:10;
+	width:	285px !important;
+	height:	26px !important;
+	line-height: 26px;
+}
+
+span.select {
+	position:absolute;
+	bottom: 0;
+	float: left;
+	left: 0;
+	width: 285px;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 10px;
+	background:url(/images/input/bg_select.png) no-repeat 0 0;
+	cursor:default;
+        z-index:1;
+}
+
+
+.form_input_div {
+	position: relative;
+	display: inline-block;
+}
+
+

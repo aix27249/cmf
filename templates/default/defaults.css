@@ -1,0 +1,26 @@
+.area::after, .subarea::after, .clearfix::after, .block::after, .schedule_row::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+div, ul, ol, li, img, fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.table {
+	display: table;
+}
+
+.table-row {
+	display: table-row;
+}
+
+.table-cell {
+	display: table-cell;
+}
+
